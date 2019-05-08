@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--图库按下与松开的状态  -->
+
+    <item android:drawable="@drawable/photo_gallery_pressed" android:state_focused="true"/>
+    <item android:drawable="@drawable/photo_gallery_pressed" android:state_focused="false" android:state_pressed="true"/>
+    <item android:drawable="@drawable/photo_gallery_normal" android:state_focused="false"/>
+
+</selector>

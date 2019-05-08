@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--自定义窗口对话框进入的动画  -->
+    <!--X轴不变,Y轴从1000到0  -->
+    <translate
+        android:duration="200"
+        android:fromXDelta="0"
+        android:fromYDelta="1000"
+        android:toXDelta="0"
+        android:toYDelta="0" />
+
+</set>
